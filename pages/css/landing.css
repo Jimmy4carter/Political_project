@@ -1,0 +1,47 @@
+body {
+
+    background-image:url('../img/bg.jpg');
+    background-size: 100%, 100%;
+   
+}
+
+div {
+    font-family: verdana;
+    color:black;
+    text-align: center;
+    margin-top:250px;
+   
+}
+
+h1{
+
+    text-align:center;
+    font-size: 75px;
+    margin:0px;
+    padding:0px;
+    text-shadow: 2px 1px 1px grey;
+}
+p{
+  
+    font-size: 40px;
+    text-shadow: 1px 1px 3px lightgrey;
+}
+
+.my-button {
+    display: inline-block;
+    margin: 8px; /* space between buttons */
+    background: #084710; /* background color */
+    color: rgb(250, 255, 254); /* text color */
+    font-size: 4.5em;
+    font-family: ‘Georgia’, serif;
+    font-style: italic;
+    border-radius: 50px; /* rounded corners */
+    padding: 8px 16px; /* space around text */
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.my-button:hover {
+    background: rgb(153, 255, 184);
+    color: #121414;
+}
